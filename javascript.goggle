@@ -4,9 +4,6 @@
 ! author: Andres Nowak
 ! avatar: #e8e81a
 
-! Remove results not matching any other rule
-$discard
-
 ! boost important sites
 $boost=3,site=developer.mozilla.org
 
