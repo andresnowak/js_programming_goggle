@@ -1,0 +1,20 @@
+! name: Javascript programming
+! description: Rerank results to boost content related to the Javascript programming language.
+! public: true
+! author: Andres Nowak
+! avatar: #e8e81a
+
+! boost important sites
+*js*$boost=3,site=developer.mozilla.org
+
+! Generic boosting
+*js*$boost=1,site=rs
+*js*$boost,site=github.com
+*js*$boost,site=stackoverflow.com
+*js*$boost,site=programiz.com
+*js*$boost,site=w3schools.com
+*js*$boost,site=npmjs.com
+
+! Boost results that contain javascript in url
+*js*$boost=3,inurl
+*javascript*$boost=3,inurl
