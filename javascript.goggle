@@ -5,10 +5,9 @@
 ! avatar: #e8e81a
 
 ! boost important sites
-*js*$boost=3,site=developer.mozilla.org
+*js*$boost=1,site=developer.mozilla.org
 
 ! Generic boosting
-*js*$boost=1,site=rs
 *js*$boost,site=github.com
 *js*$boost,site=stackoverflow.com
 *js*$boost,site=programiz.com
