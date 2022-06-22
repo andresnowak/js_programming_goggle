@@ -17,6 +17,8 @@ $boost=3,site=developer.mozilla.org
 *js*$boost=3,inurl
 *javascript*$boost=3,inurl
 
-! Boost some results
+/javascript/$boost=3
+
+! boost some results
 $boost=3,site=npmjs.com
-/javascript/$boost=3,site=devdocs.io
+$boost=3,site=devdocs.io
