@@ -21,4 +21,4 @@ $boost=3,site=developer.mozilla.org
 
 ! boost some results
 $boost=3,site=npmjs.com
-$boost=3,site=devdocs.io/javascript/
+$boost=3,site=devdocs.io
