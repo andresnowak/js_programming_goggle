@@ -12,8 +12,13 @@ $boost=3,site=developer.mozilla.org
 *js*$boost,site=stackoverflow.com
 *js*$boost,site=programiz.com
 *js*$boost,site=w3schools.com
-*js*$boost,site=npmjs.com
 
 ! Boost results that contain javascript in url
 *js*$boost=3,inurl
 *javascript*$boost=3,inurl
+
+/javascript/$boost=3
+
+! boost some results
+$boost=3,site=npmjs.com
+$boost=3,site=devdocs.io/javascript/
